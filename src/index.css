@@ -1,0 +1,20 @@
+
+/* Hide scrollbar but keep functionality */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.categories-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.categories-scroll::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
